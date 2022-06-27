@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 90%;
+    margin: auto;
+    padding: 75px 0px;
+}
+.underline{
+    border: 4px solid #00000044;
+    display: block;
+    width: 5%;
+    margin: 15px auto;
+}
+header{
+    background-color:rgb(129, 52, 129);
+    color: white;
+    width: 100%;
+}
+nav{
+    width: 100%;
+    float: left;
+    padding: 10px 0px;
+}
+.logo-part{
+    width: 50%;
+    float: left;
+}
+.menu-part{
+    width: 50%;
+    float: left;
+}
+.menu-part ul{
+    padding: 0px 10px;
+}
+.menu-part li{
+    list-style: none;
+    display: inline-block;
+    margin: 0px 15px;
+}
+.menu-part a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    transition: ease-in-out 0.7s;
+}
+.menu-part a:hover{
+    background-color: rgba(0, 0, 0, 0.521);
+    padding: 10px;
+    border-radius: 5px;
+}
+.header-writting-part{
+    width: 100%;
+    text-align:center;
+}
+.header-writting-part h1{
+}
+.header-writting-part a button{
+    background-color: coral;
+    color: white;
+    width: 200px;
+    padding: 15px;
+    margin-top: 25px;
+}
+.header-writting-part a button:hover{
+    background-color: #17c2a4;
+    color: black;
+}
+
+
+section{
+    padding: 75px 0px;
+}
+#Service{
+    width: 100%;
+    float: left;
+    text-align: center;
+    background-color:#17c2a4;
+    color: white;
+}
+.service-writting-part{
+    width: 100%;
+    float: left;
+}
+service-box-part{
+    width: 100%;
+    float: left;
+}
+.service-box{
+    width: 25%;
+    float: left;
+    padding: 20px;
+    margin: 10px 0px;
+}
+
+
+.team-write{
+    text-align: center;
+}
+.service-writting-part h2{
+    font-size: 35px;
+    letter-spacing: 7px;
+    font-weight: 600;
+    padding: 10px;
+}
+.service-writting-part p{
+    margin: auto;
+}
